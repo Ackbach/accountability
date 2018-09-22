@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Accountability
+Comment=Run main.py script to grab and save screenshots automatically.
+Exec=/home/akeister/Projects/accountability/linux_launcher.sh
+Terminal=True
+Type=Application
