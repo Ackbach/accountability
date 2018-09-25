@@ -77,7 +77,7 @@ while True:
     del screens
 
     # Initialize the random minute
-    minute_to_sleep = randint(1, 2)
+    minute_to_sleep = randint(1, 60)
     if debug_flag:
         print('Minutes to sleep: ' + str(minute_to_sleep))
 
