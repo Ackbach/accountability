@@ -1,1 +1,1 @@
-python main.py
+python "C:\Projects\accountability\main.py"

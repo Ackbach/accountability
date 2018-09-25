@@ -7,8 +7,7 @@ import sys
 import configparser
 
 # For screen capture.
-from PyQt5.QtGui import QGuiApplication
-from PyQt5.QtWidgets import QApplication
+from mss import mss
 
 # For generating filename: randint(0, 59)
 from random import randint
@@ -17,9 +16,6 @@ import os
 # datetime.datetime.now() gets the current time.
 import datetime
 import time
-
-# Define the application.
-app = QApplication(sys.argv)
 
 # Debug flag:
 debug_flag = True
@@ -53,28 +49,11 @@ while True:
     if debug_flag:
         print('The prefix file name generated is: ' + pre_file_name)
 
-    # Set up QApplication for screen capture.
-    screens = QGuiApplication.screens()
-    if 1 < len(screens):
-        for i in range(len(screens)):
-            file_name = pre_file_name + '.Mon-' + str(i) + '.png'
-
-            # Now get the full path:
-            file_path = os.path.join(target_folder, file_name)
-            if debug_flag:
-                print('The full file path generated is: ' + file_path)
-
-            screens[i].grabWindow(0).save(file_path)
-
-    else:
-        file_name = pre_file_name + '.png'
-        file_path = os.path.join(target_folder, file_name)
-        if debug_flag:
-            print('The full file path generated is: ' + file_path)
-        screens[0].grabWindow(0).save(file_path)
-
-    # Tear down all screens. If monitors change, this should be ok.
-    del screens
+    file_name = pre_file_name + '.png'
+    file_path = os.path.join(target_folder, file_name)
+        
+    with mss() as sct:
+        sct.shot(mon=-1, output=file_path)
 
     # Initialize the random minute
     minute_to_sleep = randint(1, 60)
