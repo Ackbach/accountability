@@ -18,6 +18,9 @@ import os
 import datetime
 import time
 
+# Define the application.
+app = QApplication(sys.argv)
+
 # Debug flag:
 debug_flag = True
 # debug_flag = False
@@ -51,7 +54,6 @@ while True:
         print('The prefix file name generated is: ' + pre_file_name)
 
     # Set up QApplication for screen capture.
-    app = QApplication(sys.argv)
     screens = QGuiApplication.screens()
     if 1 < len(screens):
         for i in range(len(screens)):
@@ -71,12 +73,11 @@ while True:
             print('The full file path generated is: ' + file_path)
         screens[0].grabWindow(0).save(file_path)
 
-    # Tear down all classes. If monitors change, this should be ok.
+    # Tear down all screens. If monitors change, this should be ok.
     del screens
-    del app
 
     # Initialize the random minute
-    minute_to_sleep = randint(0, 59)
+    minute_to_sleep = randint(1, 2)
     if debug_flag:
         print('Minutes to sleep: ' + str(minute_to_sleep))
 
