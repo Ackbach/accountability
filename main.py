@@ -53,6 +53,7 @@ while True:
     file_path = os.path.join(target_folder, file_name)
         
     with mss() as sct:
+        sct.compression_level = 3
         sct.shot(mon=-1, output=file_path)
 
     # Initialize the random minute
