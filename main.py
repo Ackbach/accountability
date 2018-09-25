@@ -1,7 +1,7 @@
 # For arguments to PyQt5 QApplication class.
 import sys
 # Need for build?
-import encodings
+# import encodings
 
 # For ini file parser.
 import configparser
@@ -20,11 +20,7 @@ import time
 
 # Debug flag:
 debug_flag = True
-# impordebug_flag = False
-
-# Set up QApplication for screen capture.
-app = QApplication(sys.argv)
-screen = QGuiApplication.primaryScreen()
+# debug_flag = False
 
 # Get data from ini file.
 config = configparser.ConfigParser()
@@ -43,9 +39,6 @@ if debug_flag:
 # Outer loop just keeps the application going, period:
 while True:
 
-    # Ready to take the screenshot.
-    desktop_pixmap = screen.grabWindow(0)
-
     # Build the filename.
     the_time = datetime.datetime.now()
     if debug_flag:
@@ -53,18 +46,34 @@ while True:
               the_time.strftime('%Y-%m-%d %H.%M.'))
 
     # Filename will be: YYYY-MM-DD hh.mm.computer_name.png
-    file_name = the_time.strftime('%Y-%m-%d %H.%M.') + computer_name \
-        + '.png'
+    pre_file_name = the_time.strftime('%Y-%m-%d %H.%M.') + computer_name
     if debug_flag:
-        print('The file name generated is: ' + file_name)
+        print('The prefix file name generated is: ' + pre_file_name)
 
-    # Now get the full path:
-    file_path = os.path.join(target_folder, file_name)
-    if debug_flag:
-        print('The full file path generated is: ' + file_path)
+    # Set up QApplication for screen capture.
+    app = QApplication(sys.argv)
+    screens = QGuiApplication.screens()
+    if 1 < len(screens):
+        for i in range(len(screens)):
+            file_name = pre_file_name + '.Mon-' + str(i) + '.png'
 
-    # Save file.
-    desktop_pixmap.save(file_path)
+            # Now get the full path:
+            file_path = os.path.join(target_folder, file_name)
+            if debug_flag:
+                print('The full file path generated is: ' + file_path)
+
+            screens[i].grabWindow(0).save(file_path)
+
+    else:
+        file_name = pre_file_name + '.png'
+        file_path = os.path.join(target_folder, file_name)
+        if debug_flag:
+            print('The full file path generated is: ' + file_path)
+        screens[0].grabWindow(0).save(file_path)
+
+    # Tear down all classes. If monitors change, this should be ok.
+    del screens
+    del app
 
     # Initialize the random minute
     minute_to_sleep = randint(0, 59)
