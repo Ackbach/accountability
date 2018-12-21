@@ -14,7 +14,7 @@ import time
 
 # Debug flag:
 # debug_flag = True
-debug_flag = False
+debug_flag = True
 
 # Get data from ini file.
 config = configparser.ConfigParser()
@@ -28,17 +28,32 @@ print('The target folder is ' + target_folder)
 computer_name = config['Paths']['computer_name']
 print('The computer name is ' + computer_name)
 
+time_format = '%Y-%m-%d %H.%M.%S.'
+time_only_format = '%H.%M.%S.'
+file_path = ''
+
+first_run = True
+
 # Outer loop just keeps the application going, period:
 while True:
 
-    # Build the filename.
     the_time = datetime.datetime.now()
+
     if debug_flag:
         print('The current time is: ' +
-              the_time.strftime('%Y-%m-%d %H.%M.'))
+              the_time.strftime(time_format))
 
-    # Filename will be: YYYY-MM-DD hh.mm.computer_name.png
-    pre_file_name = the_time.strftime('%Y-%m-%d %H.%M.') + computer_name
+    if not first_run:
+
+        # Rename the previous file to include time range
+        last_file_path = file_path
+        rename_file_path = last_file_path.split('.' + computer_name)[0]
+        rename_file_path += ' to ' + the_time.strftime(time_only_format)
+        rename_file_path += computer_name + '.png'
+        os.rename(last_file_path, rename_file_path)
+
+    # Filename will be: YYYY-MM-DD hh.mm.ss.computer_name.png
+    pre_file_name = the_time.strftime(time_format) + computer_name
     if debug_flag:
         print('The prefix file name generated is: ' + pre_file_name)
 
@@ -60,3 +75,5 @@ while True:
 
     # Sleep an undisclosed amount of time.
     time.sleep(minute_to_sleep * 60)
+
+    first_run = False
