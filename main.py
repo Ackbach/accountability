@@ -13,8 +13,7 @@ import datetime
 import time
 
 # Debug flag:
-# debug_flag = True
-debug_flag = True
+debug_flag = False
 
 # Get data from ini file.
 config = configparser.ConfigParser()
@@ -31,6 +30,7 @@ print('The computer name is ' + computer_name)
 time_format = '%Y-%m-%d %H.%M.%S.'
 time_only_format = '%H.%M.%S.'
 file_path = ''
+one_week = datetime.timedelta(weeks=1)
 
 first_run = True
 
@@ -67,6 +67,39 @@ while True:
     with mss() as sct:
         sct.compression_level = 3
         sct.shot(mon=-1, output=file_path)
+
+    # Now delete files older than a week.
+
+    # List the files in the target folder.
+    files = os.listdir(target_folder)
+
+    # Filter down to just pictures we've put there. Filename should
+    # start with four numbers and end in '.png'.
+    files = [file for file in files
+             if (str(file)[0].isdigit()
+                 and str(file)[1].isdigit()
+                 and str(file)[2].isdigit()
+                 and str(file)[3].isdigit()
+                 and str(file).endswith('.png'))]
+
+    # Grab the dates of the files for comparison.
+    dates = [datetime.datetime.strptime(file[:19], time_format[:-1])
+             for file in files]
+
+    # Now filter down to just those dates that are more than one week
+    # prior.
+    dates = [dt for dt in dates if the_time - one_week >= dt]
+
+    delete_files = []
+    for dt in dates:
+        for file in files:
+            if str(file).startswith(dt.strftime(time_format[:-1])):
+                delete_files.append(file)
+
+    # Loop through the files. If a file starts with a date in dates,
+    # delete it.
+    for file in delete_files:
+        os.remove(os.path.join(target_folder, file))
 
     # Initialize the random minute
     minute_to_sleep = randint(1, 60)

@@ -1,100 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="609529ed-f8d2-4cd8-8f63-0b8b724ca1a1" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="609529ed-f8d2-4cd8-8f63-0b8b724ca1a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/accountability.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/accountability.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-Analysis.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-COLLECT.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-EXE.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-PKG.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-PKG.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-PYZ.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/out00-PYZ.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warnmain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/test_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/warn-test_build.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_build/xref-test_build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/iconengines/libqsvgicon.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqdds.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqgif.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqicns.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqico.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqjpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqsvg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqtga.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqtiff.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqwbmp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/libqwebp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/libqminimal.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/libqoffscreen.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/libqxcb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ca.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_cs.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_de.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_en.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fi.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fr.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_he.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_hu.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_it.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ja.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ko.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_lv.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_pl.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ru.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_sk.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_uk.qm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtCore.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtGui.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtWidgets.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/anaconda3/bin/qt.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/anaconda3/pkgs/qt-5.6.2-h974d657_12/bin/qt.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/anaconda3/pkgs/qt-5.6.2-h974d657_12/info/recipe/qt.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_bisect.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_bz2.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_cn.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_hk.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_iso2022.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_jp.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_kr.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_codecs_tw.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_datetime.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_hashlib.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_heapq.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_lzma.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_md5.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_multibytecodec.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_opcode.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_pickle.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_posixsubprocess.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_random.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_sha1.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_sha256.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_sha512.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_socket.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_ssl.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_struct.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/binascii.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/grp.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5Core.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5DBus.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5Gui.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5Svg.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5Widgets.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libQt5XcbQpa.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libX11-xcb.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libX11.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXau.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXdamage.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXdmcp.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXext.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXfixes.so.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXrender.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libXxf86vm.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libcrypto.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libdbus-1.so.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libdrm.so.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libexpat.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libfontconfig.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libfreetype.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libgcc_s.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libglapi.so.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libglib-2.0.so.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libgthread-2.0.so.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libicudata.so.58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libicui18n.so.58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libicuuc.so.58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libjpeg.so.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/liblzma.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libncursesw.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libpcre.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libpng16.so.16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libpython3.5m.so.1.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libreadline.so.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libssl.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libstdc++.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libtinfow.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libxcb-glx.so.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libxcb-present.so.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libxcb-sync.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libxml2.so.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libxshmfence.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/libz.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/math.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/pyexpat.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/readline.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/resource.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/select.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/sip.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/termios.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/unicodedata.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/zlib.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_bisect.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_bz2.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_cn.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_hk.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_iso2022.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_jp.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_kr.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_codecs_tw.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_datetime.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_hashlib.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_heapq.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_lzma.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_md5.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_multibytecodec.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_opcode.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_pickle.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_posixsubprocess.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_random.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_sha1.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_sha256.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_sha512.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_socket.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_ssl.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/_struct.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/binascii.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/grp.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libcrypto.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/liblzma.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libncursesw.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libpython3.5m.so.1.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libreadline.so.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libssl.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libtinfow.so.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/libz.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/math.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/pyexpat.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/readline.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/resource.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/select.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/termios.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/test_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/unicodedata.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test_build/zlib.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings.ini" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="943308911">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="739" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="739" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="994">
-              <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_build.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.desktop" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.desktop">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linux_launcher.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linux_launcher.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="windows_launcher.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/windows_launcher.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,44 +226,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/linux_launcher.sh" />
-        <option value="$PROJECT_DIR$/windows_launcher.bat" />
-        <option value="$PROJECT_DIR$/main.desktop" />
-        <option value="$PROJECT_DIR$/test_build.py" />
-        <option value="$PROJECT_DIR$/settings.ini" />
-        <option value="$PROJECT_DIR$/main.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-414" />
     <option name="width" value="1096" />
     <option name="height" value="1936" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="accountability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accountability" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1f6NxgLm15C9v4ahsfDJP7DFMHs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -162,20 +249,9 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="accountability" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -186,14 +262,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="accountability" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="test_build" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="accountability" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -204,27 +283,27 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="accountability" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_build.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_build" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test_build" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_build" />
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_build" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -238,183 +317,50 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-414" width="1096" height="1936" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36567163" sideWeight="0.49573562" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33596393" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34062797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36673775" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.desktop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux_launcher.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows_launcher.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.desktop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux_launcher.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows_launcher.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.desktop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux_launcher.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows_launcher.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1374" height="359" key="GridCell.Tab.0.bottom" timestamp="1596645052179">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="235" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1595535196299" />
+    <state width="1374" height="359" key="GridCell.Tab.0.bottom/45.23.1395.877@45.23.1395.877" timestamp="1596645052179" />
+    <state width="1374" height="359" key="GridCell.Tab.0.center" timestamp="1596645052178">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="235" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1595535196299" />
+    <state width="1374" height="359" key="GridCell.Tab.0.center/45.23.1395.877@45.23.1395.877" timestamp="1596645052178" />
+    <state width="1374" height="359" key="GridCell.Tab.0.left" timestamp="1596645052177">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="235" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1595535196299" />
+    <state width="1374" height="359" key="GridCell.Tab.0.left/45.23.1395.877@45.23.1395.877" timestamp="1596645052177" />
+    <state width="1374" height="359" key="GridCell.Tab.0.right" timestamp="1596645052178">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="235" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1595535196299" />
+    <state width="1374" height="359" key="GridCell.Tab.0.right/45.23.1395.877@45.23.1395.877" timestamp="1596645052178" />
+    <state width="1374" height="359" key="GridCell.Tab.1.bottom" timestamp="1596645053311">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="359" key="GridCell.Tab.1.bottom/45.23.1395.877@45.23.1395.877" timestamp="1596645053311" />
+    <state width="1374" height="359" key="GridCell.Tab.1.center" timestamp="1596645053311">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="359" key="GridCell.Tab.1.center/45.23.1395.877@45.23.1395.877" timestamp="1596645053311" />
+    <state width="1374" height="359" key="GridCell.Tab.1.left" timestamp="1596645053310">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="359" key="GridCell.Tab.1.left/45.23.1395.877@45.23.1395.877" timestamp="1596645053310" />
+    <state width="1374" height="359" key="GridCell.Tab.1.right" timestamp="1596645053311">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="1374" height="359" key="GridCell.Tab.1.right/45.23.1395.877@45.23.1395.877" timestamp="1596645053311" />
+    <state width="698" height="438" key="XDebugger.FullValuePopup" timestamp="1596643765461">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state width="698" height="438" key="XDebugger.FullValuePopup/45.23.1395.877@45.23.1395.877" timestamp="1596643765461" />
   </component>
   <component name="masterDetails">
     <states>
